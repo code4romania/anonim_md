@@ -32,5 +32,3 @@ On a fresh Ubuntu box (version 18.04 preferred) do the following:
     - files under [assets/files](assets/files) to `Site settings > Files`
     - `custom.css`, `custom.js`, `favicon.ico` to `Site settings > Theme customization`
     - `logo.png` to `Site settings > Main configuration > Logo`
-
-4. You're done.
