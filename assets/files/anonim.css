@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Monda Bold';
-  src: url('/s/Monda-Bold.ttf') format('truetype');
+  src: url('Monda-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto Slab Thin';
-  src: url('/s/RobotoSlab-Thin.ttf') format('truetype');
+  src: url('RobotoSlab-Thin.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto Slab';
-  src: url('/s/RobotoSlab-Regular.ttf') format('truetype');
+  src: url('RobotoSlab-Regular.ttf') format('truetype');
 }
 
 html {
@@ -71,7 +71,6 @@ a:hover {
   border: #ffffff !important;
   font-weight: 700 !important;
   font-size: 1.5em !important;
-  padding: 10px 20px !important;
   text-decoration: none !important;
   font-family: "Monda", sans-serif;
 }
@@ -401,160 +400,23 @@ ul li {
   }
 }
 
-/* Globaleaks overwrites our CSS with inline garbage,
- hence most rules must be succeeded by !important. TY */
-
-[id="FooterBox"] {
-  padding: 2em !important;
-}
-
-div.contextClarification {
-  padding: 1em !important;
-}
-
-div.contextList, div.contextListContent {
-  height: auto !important; 
-}
-
-.contextListContent span {
-  padding: 0 !important;
-}
-
-.contextListDescription {
-  text-align: justify;
-  line-height: 1em !important;
-  padding-top: 1em !important;
-}
-
-div.contextListContent>span:nth-child(2) {
-  float: right;
-  padding: 0 !important;
-  max-width: 25%;
-  height: auto;
-}
-
-div.contextListContent>span:nth-child(3) {
-  display: block;
-}
-
-span.verticalAlignHelper,
-#DonationPanel {
-  display: none;
-}
-
-.contextImg {
-  padding-left: 2em;
-  background-color: transparent;
-}
-
-.highlight:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
-}
-
-#WhistleblowerSubmitBoxButton {
-  margin-top: 1em;
-}
-
-.question-label {
-  background: #f5f5f5;
-  padding: 10px 15px;
-  border-bottom: 1px solid #ddd;
-}
-
-.question-body {
-  padding: 10px 15px;
-}
-
-div.fieldDescription {
-  margin-bottom: .8em;
-}
-
-#step-0 div.row {
- margin: 1em 0; 
-}
-
-#step-0 .question {
-  padding: 0;
-  border: 1px solid #ddd;
-}
-
-#step-0 input, #step-0 textarea {
-  border-radius: 0;
-}
-
-.has-error span {
-  font-size: .8em;
-  display: inline-block;
-  margin-top: 1em;
-}
-
-div.fieldAnswerEntry {
-  margin-bottom: 0;
-}
-
-#step-0 .col-md-12 {
-  padding: 0;
-}
-
-#WhistleblowerLoginPrompt {
-  margin-bottom: 1em;
-}
-
-
-#BrowserSupported .btn-default {
-  background-color: #003166 !important;
-}
-
-#BrowserSupported .btn {
-  color: #fff !important;
-  text-decoration: none;
-}
-
-#BrowserSupported .btn-sm {
-  background-color: #003166 !important;
-}
-
-#HeaderBox {
-  background-color: #f5f5f5 !important;
-  border-bottom: 1px solid #E5E5E5;
-}
-
-#HeaderBoxContent>div.row {
-  padding: 0 2.4em;
-}
-
-#LoginFormBox, #LoginStatusBox {
-  float: left !important;
-  border: 1px solid #E5E5E5;
-}
-
-#LanguagePickerBox {
-  float: right;
-}
-
-#UserBox {
-  float: none !important;
-} 
-
-#LoginFormBox>div>div:first-child {
-  padding-bottom: 1em;
-}
-
-#ContentBox {
-  padding: 2em 2.4em 4em 2.4em !important;
-}
-
-#WhistleblowerReceiptBox,
-#WhistleblowerSubmitBox {
+div.footer {
   padding: 2em 0;
   border: 1px solid #E5E5E5;
+  background-color: #F5F5F5;
 }
 
 div.logo_row {
   background-color: #fff;
-  padding: .5em 0 !important;
 }
 
 .logo_row img {
   max-height: 2.5em;
+}
+
+[role="tablist"] li {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 15px;
 }
