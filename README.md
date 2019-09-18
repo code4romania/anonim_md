@@ -11,7 +11,7 @@ files that are automatically loaded in every GlobaLeaks page.
 Mainly, there are two approaches for adding new content or setting your own homepage in GlobaLeaks 3.x:
 
 1. Modify the default page by manipulating the DOM through the custom script.
-2. Build a separate HTML page, upload it on the platform then use redirects using the custom script to set it as the landing page. This is the method currently employed in Anonim. For more details please have a look at the commented code of [Anonim's custom script](asses/custom.js). 
+2. Build a separate HTML page, upload it on the platform then use redirects using the custom script to set it as the landing page. This is the method currently employed in Anonim. For more details please have a look at the commented code of [Anonim's custom script](assets/custom.js). 
 
 
 While the first method allows to integrate your own content with the GlobaLeaks submission forms within the same page, it is prone to break if elements/attributes are being changed in future releases of Globaleaks, thus the second approach is always prefered.
