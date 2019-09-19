@@ -13,7 +13,6 @@ Mainly, there are two approaches for adding new content or setting your own home
 1. Modify the default page by manipulating the DOM through the custom script.
 2. Build a separate HTML page, upload it on the platform then use redirects using the custom script to set it as the landing page. This is the method currently employed in Anonim. For more details please have a look at the commented code of [Anonim's custom script](assets/custom.js). 
 
-
 While the first method allows to integrate your own content with the GlobaLeaks submission forms within the same page, it is prone to break if elements/attributes are being changed in future releases of Globaleaks, thus the second approach is always prefered.
 
 ### Critical security aspects to be looked for
@@ -23,6 +22,7 @@ The right way to do it is to download the resource locally, upload it on the ins
 
 ### Steps to replicate the deployment of anonim.md
 On a fresh Ubuntu box (version 18.04 preferred) do the following:
+
 
 1. Install a fresh instance of Globaleaks using the [official documentation](https://docs.globaleaks.org/en/latest/setup/InstallationGuide.html); mainly it consists of issuing the following commands with `root` privileges:
 
