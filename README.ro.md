@@ -36,8 +36,10 @@ root# ./install-globaleaks.sh
 3. Conectați-vă la panoul de administrare (la adresa `http://[ip_address]:80/admin`) și încărcați următoarele [assets](assets/), după cum urmează:
     
 	- fișiere sub [assets/files](assets/files) la `Site settings > Files`
-    - `custom.js`,` favicon.ico` la `Site settings > Theme customization`
-    - `logo.png` la `Site settings > Main configuration > Logo`
+    
+	- `custom.js`,` favicon.ico` la `Site settings > Theme customization`
+    
+	- `logo.png` la `Site settings > Main configuration > Logo`
 
 4. Întrucât pagina de pornire (situată la `/s/index.html`) este setată folosind o redirecționare, atunci când accesați platforma, pagina de destinație GlobaLeaks implicită va fi afișată pentru o secundă. Pentru a ascunde această inconsistență vizuală, este necesar să editați direct fișierul `/usr/share/globaleaks/client/index.html` de la linia de comandă și să adăugați o etichetă `hidden` la elementul `body`, astfel:
 ```
