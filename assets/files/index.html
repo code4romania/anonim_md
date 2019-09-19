@@ -1,0 +1,350 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>anonim.md - Trimite informații în siguranță către cei mai buni jurnaliști din Republica Moldova</title>
+    <script 
+        src="/s/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous">
+    </script>
+    </script>
+    <link rel="stylesheet"
+        href="/s/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous"/>
+    <script 
+        src="/s/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" type="text/css" href="/s/anonim.css"/>
+    <link rel="icon" href="/s/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div id="BodyCustom">
+    <div class="container-fluid logo_row">
+        <div class="row">
+            <div class="col d-flex justify-content-center justify-content-md-end">
+                <img src="/s/logo-code4.png">
+                <img src="/s/logo-do.png">
+                <img src="/s/logo-undef.png">
+            </div>
+        </div>
+    </div>
+    <div id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <a href="/" id="logo"><img src="data:image/png;base64,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" /></a>
+                    </div>
+                    <div class="claim">
+                        Trimite informații în siguranță către cei mai buni jurnaliști din Republica Moldova.
+                    </div>
+                    <div id="SubmitBox" id="send" class="intro-cta">
+                        <a href="/#/submission" id="send-button" class="btn btn-default btn-lg">Trimite o informație</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="main-container">
+
+        <div role="tabpanel" id="main-content">
+        <div class="row">
+            <div class="col-md-3 text-center text-md-right">
+                <ul class="nav nav-pills nav-stacked" role="tablist">
+                    <li role="presentation" class="h4 active">
+                        <a data-target="#about" aria-controls="about" role="tab" data-toggle="tab"><span>Anonim</span></a>
+                    </li>
+                    <li role="presentation" class="h4">
+                        <a data-target="#howto" aria-controls="howto" role="tab" data-toggle="tab"><span>Cum funcționează</span></a>
+                    </li>
+                    <li role="presentation" class="h4">
+                        <a data-target="#faq" aria-controls="faq" role="tab" data-toggle="tab"><span>Întrebări frecvente</span></a></li>
+                    <li role="presentation" class="h4">
+                        <a data-target="#security" aria-controls="security" role="tab" data-toggle="tab"><span>Siguranță pentru surse</span></a>
+                    </li>
+                    <li role="presentation" class="h4">
+                        <a data-target="#terms" aria-controls="terms" role="tab" data-toggle="tab"><span>Termeni și condiții</span></a>
+                    </li>
+                    <li role="presentation" class="h4">
+                        <a data-target="#contact" aria-controls="contact" role="tab" data-toggle="tab"><span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-9 measure-wide">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="about">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 style="margin-top: 0">Bun venit în Anonim</h3>
+                                <p>Anonim vă ajută să trimiteți documente, care considerați că sunt de interes public, către jurnaliști și ONGuri. Aceștia le pot utiliza pentru a porni investigații.</p>
+
+                                <p>Am proiectat sistemul pentru a vă ajuta să trimiteți aceste materiale protejând în același timp identitatea dumneavoastră, ceea ce face foarte greu să vă identificați ca sursă. Acest principiu se aplică indiferent de persoana sau organizația care încearcă să identifice sursa unei informații trimise.</p>
+
+                                <p>Anonim este un proiect al Asociației Obștești „Juriștii pentru Drepturile Omului”, creat de Code for Romania, cu susținerea financiară a Fondului Naţiunilor Unite pentru Democrație (UNDEF). Anonim a fost elaborat în cadrul proiectului „Promovarea dreptului la informare pentru publicul din Moldova” („Promoting the Public’s Right to Know in Moldova”), în colaborare cu jurnaliștii și ONGurile care cred că doar adevărul poate învinge cazurile de abuz și corupție.</p>
+
+                                <p>Orice informație poate fi expediată către unul dintre destinatarii existenți din platformă, destinatari care ar putea folosi aceste informații în scopuri jurnalistice. Platforma vă permite să continuați discuția într-un mod complet anonim cu destinatarul ales. Puteți asemui această platformă unui sistem email complet securizat și anonimizat, care nu va cere și nu va păstra informații despre identitatea dumneavoastră sau locația de unde trimiteți datele.</p>
+
+                                <p>Puteți comunica anonim și gratuit cu destinatarii aleși, oricât timp veți dori să o faceți.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="howto">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>Cum trimiți informații confidențiale?</h3>
+                                <p>Dacă aveți informații despre chestiuni care ar trebui investigate, puteți trimite informații sau documente către unul dintre destinatarii platformei folosind acest site. Luați în considerare faptul că informațiile concrete și dovezile, cum ar fi documentele sursă, ofere unui jurnalist mai multe șanse să ducă la bun sfârșit investigația.</p>
+                                <h3>Cine ar putea primi informațiile de la tine?</h3>
+                                <p>Jurnaliștii verifică informațiile și fac publice abuzurile, abaterile, actele de corupție sau hoție.
+                                ONGurile pot folosi informațiile oferite de tine pentru a-și face treaba mai bine și pentru a aduce schimbarea mai repede și mai bine țintit.</p>
+                                <h3>Cum îți protejăm identitatea?</h3>
+                                <p>Expedierea de informații sensibile implică riscuri. Există atât riscuri sociale, cât și tehnice care vă amenință anonimatul. În același timp, există măsuri pe care le puteți lua pentru a vă proteja. 
+                                Pentru mai multe detalii, consultați „Siguranță pentru surse”.</p>
+                                <h3>Cine este listat ca destinatar pe platforma Anonim?</h3>
+                                <p>Jurnaliștii de investigație, care au resursele necesare pentru a aduce la suprafață orice probleme morale sau juridice pe care le observați. Aceștia lucrează pentru mass-media (ziare, reviste, site-uri web, radio sau televiziune), prin intermediul căreia își pot face publică cercetarea. </p>
+                                <p>Asociațiile neguvernamentale, care au pe agendă asigurarea transparenței statului Republica Moldova.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="faq">
+                            <h3>De ce aș folosi Anonim?</h3>
+                            <p></p>Această platformă folosește ultimele tehnologii de anonimizare a conexiunii Internet a utilizatorilor în trimiterea de date sau comunicarea cu destinatarii. Astfel, identitatea îți este protejată și de cei cărora le trimiți informațiile, și de cei care ar putea urmări sau intercepta mesajele voastre. Tehnologiile pe care le folosim sunt dovedite a fi viabile fiind prezente în alte platforme similare ce deservesc utilizatori din țări cu regimuri totalitare sau cu un grad înalt de corupție. Datele sunt transportate și securizate folosind protocoale de încriptare echivalente celor de uz militar.
+                            <h3>Care e diferența dintre Anonim și Wikileaks?</h3>
+                            <p>Anonim nu primește informații și nu publică informații, așa cum face Wikileaks. Anonim este o platformă excepțional securizată, care permite surselor să se conecteze cu destinatarii, în scopul realizării investigațiilor.</p>
+                            <h3>Cum aleg destinatarii?</h3>
+                            <p>Fiecare dintre surse îți alege destinatarii în funcție de propriile criterii, în funcție de felul cum rezonează personal cu activitatea destinatarilor din lista noastră. Anonim nu poate decât să recomande să ai în vedere criterii ca onestitatea, integritatea, excelența activității profesionale, lipsa intenției de manipulare și, nu în ultimul rând, relevanța vocii destinatarului în spațiul public.</p>
+                            <h3>De ce este conexiunea Anonim așa de înceată?</h3>
+                            <p>Conexiunea Anonim se face fie direct prin Internet, fie prin Tor. Tor este un sistem virtual de tuneluri care leaga computerele, ascunzând identitatea sursei într-o rețea complet anonimă. Aducând avantajul anonimatului, Tor are dezavantajul unei conexiuni lente.</p>
+                            <h3>Ce riscuri implică trimiterea de documente?</h3>
+                            <p>Trimiterea de documente nu este niciodată 100% lipsită de riscuri. Platforma noastră face ca dezvăluirea sursei să fie foarte dificilă. Anonim încearcă, pe cât este posibil, să protejeze schimbul de informații desfășurat aici. Prin procesul de înscriere în platformă, destinatarii noștri sunt familiarizați cu folosirea tehnologiilor de securitate utilizate. În egală măsură, sursele sunt informate despre riscuri și eventuale pericole. La final, responsabilitatea este a celor două părți.</p>
+                            <h3>Cine este Code for Romania?</h3>
+                            <p>Code for Romania este o organizație neguvernamentală independentă, neafiliată politic și apolitică ce numără în prezent peste 500 de membri specialiști în IT, comunicare, analiză și design. Dezvoltăm soluții digitale pentru a rezolva probleme ale societății. Construim instrumente software menite să ajute în creșterea transparenței, a deschiderii datelor publice, să ajute în sprijinirea educației și a accesului la servicii. Ne propunem prin proiectele noastre să venim în ajutorul tuturor comunităților, prin dezvoltarea de aplicații civice în toate domeniile în care tehnologia poate aduce o schimbare benefica tuturor.</p>
+                            <h3>Cui aparține Anonim?</h3>
+                            <p>Anonim este un proiect al Asociației Obștești „Juriștii pentru Drepturile Omului”, creat de Code for Romania, cu susținerea financiară a Fondului Naţiunilor Unite pentru Democrație (UNDEF). Anonim a fost elaborat în cadrul proiectului „Promovarea dreptului la informare pentru publicul din Moldova” („Promoting the Public’s Right to Know in Moldova”).
+                            „Juriştii pentru Drepturile Omului” este o organizaţie non-guvernamentală, înregistrată în anul 2001. Organizaţia a fost fondată cu scopul promovării standardelor internaţionale în domeniul drepturilor omului în Republica Moldova. Activitatea organizaţiei este orientată cu precădere spre implementarea Convenţiei Europene a Drepturilor Omului în Republica Moldova.</p>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="security">
+
+                        <p>Înainte de a expedia informații, ar trebui să știți ce ar putea să se întâmple cu informațiile pe care le-ați trimis și cum ar putea fi publicate. De exemplu, încercați să vă răspundeți la mai multe întrebări care vă vor ajuta să vă protejați anonimatul, după ce investigația este publicată.
+                        </p>
+
+                        <h3 id="social-risks">Riscuri sociale</h3>
+
+                        <p>Înainte de a trimite informații, trebuie să fii conștient de ceea ce se poate întâmpla cu informația pe care ai trimis-o și care poate fi făcută publică. Îți poți pune următoarele întrebări:
+                        </p>
+
+                        <ul>
+                            <li>Sunt singura persoană cu acces la această informație? Poate această informație să fie legată direct de persoana mea?</li>
+                            <li>Sunt conștient că, odată publicată informația, oamenii îți pot pune întrebări despre respectiva informație, neștiind că eu sunt sursa?</li>
+                            <li>Pot suporta presiunea unei investigații interne sau externe care se poate declanșa în urma publicării informației trimise de mine?</li>
+                        </ul>
+
+                        <h3 id="technological-risks">Riscuri tehnice</h3>
+
+                        <p>Trebuie să fii conștient că, de câte ori folosești un computer, un telefon mobil, Internetul sau orice altă formă de comunicare modernă, acțiunile tale lasă urme. Investigatorii pot folosi astfel de informații pentru a te identifica, pe tine sau contactele tale. Poți micșora riscul de a fi descoperit, lăsând cât mai puține urme. Computerul tău te poate trăda dacă:</p>
+
+                        <ul>
+                            <li>ai vizitat de pe el platforme de trimitere de informații cum ar fi Anonim, AfriLeaks, Globaleaks, Wikileaks;</li>
+                            <li>ai salvată în el o copie a informației pe care chiar tu ai trimis-o printr-o astfel de platformă;
+                            </li>
+                            <li>de pe el a fost uploadată informația;</li>
+                            <li>de pe el ai comunicat cu destinatarii platformelor de trimitere de informații;</li>
+                            <li>numele tău și alte informații se pot găsi în metadatele fisierului Word (autor, dată etc.).
+                            </li>
+                        </ul>
+
+                        <p>Riscurile de mai sus nu sunt doar câteva dintre riscurile la care te supui când devii sursă. Există câțiva pași pe care îi poți face pentru a micșora aceste riscuri, cât se poate de mult.</p>
+
+                        <h3 id="social-security">Siguranță socială</h3>
+
+                        <p>În ceea ce privește siguranța socială, poți lua în considerare următoarele:
+                        </p>
+
+                        <ul>
+                            <li>înainte și după ce trimiți informațiile, nu spune absolut nimănui că ai făcut asta sau că ai de gând să faci asta;</li>
+                            <li>după ce informația trimisă de tine a ajuns în presă, fii precaut când îți faci publică părerea personală pe tema respectivă;</li>
+                            <li>asigură-te că nu există sisteme de monitorizare sau supraveghere în locul din care ai trimis informația;</li>
+                            <li>nu folosi motoare de căutare sau site-uri de știri pentru a găsi informația care a plecat de la tine.</li>
+                        </ul>
+
+                        <p>Acestea sunt doar câteva măsuri simple pe care le poți lua pentru a te proteja mai bine.</p>
+
+                        <h3 id="technical-protection">Siguranța tehnică</h3>
+
+                        <p>Întrucât computerele și rețelele sunt atât de complexe, măsurile tehnice pentru protejarea anonimatului sunt și ele ceva complicate. Pentru a-ți asigura tehnic anonimantul, atât cât este posibil, este necesar să fii computer savvy enough ca să înțelegi riscurile la care te expui. Prin urmare, pașii de mai jos te ajută să îți crești șansele de a rămâne anonim:
+                        </p>
+
+                        <ul>
+                            <li>
+                                Folosește <a href="https://www.torproject.org/download/download-easy.html.en">Tor Browser Bundle software</a>                                        pentru a naviga anonim pe Internet. Este foarte ușor de folosit</li>
+                            <li>Pe lângă Tor, folosește și BleachBit care îți va curăța computerul de orice urme, cum ar fi cookies, logs etc.
+                            </li>
+                            <li>Nu face upload de informații de pe calculatorul de serviciu sau cel de acasă. Folosește unul de la un Internet Café.</li>
+                            <li><strong>Nu păstra o copie a informațiilor trimise</strong></li>
+                            <li>Asigură-te că nu ai nicio urmă a informației trimise în sistemul computerului. Șterge toate fișierele din stick-ul USB pe care l-ai folosit, apoi umple-l cu muzică, filme sau fotografii. Ca să te asiguri că fișierele nu pot fi recuperate, formatează drive-ul și umple de mai multe ori spațiul rămas liber, folosind unelte existente gratuit pe Internet.
+                            </li>
+                            <li>Unele informații pot conține meta-date, cum ar fi autorul documentului, data, tipul de cameră cu care a fost făcută fotografia. Încearcă să ștergi orice tip de meta-date care nu sunt relevante pentru informația pe care ai de gând să o trimiți și care te poate expune pe tine personal. Există multiple ghiduri pe Internet despre cum se pot șterge aceste informații din fișiere Microsoft Office sau PDF.
+                            </li>
+                        </ul>
+
+                        <p>Urmând pașii de mai sus și luând în considerare factorii de risc social, îți crești cosiderabil șansele de a rămâne anonim. Asta nu-ți garantează 100% anonimatul. Pentru a afla mai multe despre siguranța digitală, îți recomandăm SecurityinABox.org. Acest site explică riscurile cele mai comune în comunicarea electronică și modalitățile de a le minimiza.</p>
+
+
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="terms">
+
+                        <h3>I. DEFINIȚII</h3>
+                            
+                        <p>Termenii utilizați în prezentul contract vor avea următoarele semnificații:</p>
+                            
+                        <p>„Anonim” înseamnă un program de calculator (software), care include și interfața grafică a acestuia, dezvoltat de Asociația Code for Romania. Respectiv, este un program de calculator conceput pentru a fi rulat pe un echipament informatic mobil, de tipul smartphone și/sau tabletă, și/sau pe un computer și care este pus la dispoziția Utilizatorilor de către Asociația Obștească „Juriștii pentru Drepturile Omului”. Prin accesarea platformei Anonim se vor desfășura anumite raporturi între Utilizatori (Destinatari și Clienti), în temeiul cărora Clientul va putea transmite în mod anonim documente și informații confidențiale de interes public către Destinatari.</p>
+                            
+                        <p>„Client” înseamnă persoana fizică care transmite în mod anonim și securizat date, informații și documente către Destinatari, utilizând aplicația Anonim.</p>
+                            
+                        <p>„Destinatar” – înseamnă orice jurnalist independent, ONG, trust media, autorități sau instituții publice care se înregistrează pe platforma Anonim în scopul accesării și utilizării datelor, informațiilor și documentelor transmise de către Clienți. </p>
+                        <p>„Utilizator” - orice persoană care accesează sau utilizează Anonim.</p>
+                            
+                        <h3>II. ACORDUL DE UTILIZARE A PLATFORMEI Anonim</h3>
+                            
+                        <p>Platforma Anonim, inclusiv orice pagină componentă a acesteia, conținutul și serviciile puse la dispozitie prin intermediul Anonim pot fi utilizate numai în conformitate cu termenii și condițiile de acces și utilizare precizate în prezentul contract, care trebuie citite cu atenție și acceptate înainte de a utiliza platforma Anonim.</p>
+                            
+                        <p>Prevederile menționate aici, respectiv termenii și condițiile de utilizare a Anonim constituie contractul (denumit în continuare „Contractul”), care guvernează raporturile dintre Code for Romania și orice Utilizator. Înainte de a utiliza platforma vă rugăm să citiți cu atenție acest set de termeni și condiții.</p>
+                            
+                        <p>Utilizarea Platformei Anonim constituie o declarație privind îndeplinirea următoarelor condiții: (I) deținerea vârstei de minim 18 ani; (II) inexistența unor circumstanțe care afectează capacitatea legală; și (III) acceptarea deplină a prevederilor din acest Contract și a prevederilor Codului de Conduită al Code for Romania. Dacă oricare dintre aceste condiții nu este îndeplinită, Utilizatorul trebuie să înceteze imediat să acceseze sau să utilizeze platforma Anonim.</p> 
+
+                        <p>Utilizarea de către orice persoană a oricăror funcționalități din aplicația Incognito creează, automat și fără altă formalitate, calitatea de Utilizator în sensul acestui Contract. Refuzul de a deveni Utilizator în sensul acestui Contract, presupune obligatoriu încetarea imediată a utilizării Incognito.</p>
+
+                        <p>Pentru a asigura respectarea condițiilor de acces și utilizare a platformei Anonim, Utilizatorul se obligă să verifice la momentul fiecărei accesări a Anonim termenii și condițiile de utilizare a platformei. Utilizarea platformei, chiar și în cazul omisiunii Utilizatorului de a analiza termenii și condițiile aplicabile, reprezintă acordul expres al Utilizatorului de acceptare a respectivelor condiții.</p>
+
+                        <h3>III. SERVICIILE DISPONIBILE UTILIZATORILOR</h3>
+                            
+                        <p>Prin Anonim, Juriștii pentru Drepturile Omului pune la dispoziția Utilizatorilor o interfață tehnică, prin care Clientul, în mod direct și independent, va putea transmite în mod anonim, documente și informații de interes public către Destinatari. Interfața tehnică este disponibilă pentru orice Utilizator în mod gratuit.</p>
+
+                        <p>Juriștii pentru Drepturile Omului nu este parte în raporturile intervenite între Client și Destinatar prin utilizarea Anonim și nu răspunde în niciun fel cu privire la conținutul documentelor și informațiilor transmise prin intermediul Anonim.</p>
+                            
+                        <h3>IV. UTILIZAREA PLATFORMEI Anonim</h3>
+
+                        <p>Orice jurnalist, ONG, trust media, autoritate sau instituție publică care dorește să se înscrie și să utilizeze platforma Anonim în calitate de Destinatar va trimite o solicitare în acest sens către Asociația Obștească „Juriștii pentru Drepturile Omului” (pe adresa de email <a href="/cdn-cgi/l/email-protection#d1b0bfbebfb8bcb091bdb9a3ffbcb5"><span class="__cf_email__" data-cfemail="42232c2d2c2b2f23022e2a306c2f26">[email&#160;protected]</span></a>).</p>
+
+                        <p>După verificarea prealabilă și aprobarea acestei solicitări de către Juriștii pentru Drepturile Omului, Destinatarul va primi un nume de utilizator și o parola unică pe care o va putea folosi pentru accesarea platformei Anonim. După prima logare, Destinatarul își va seta o nouă parolă pe care o va folosi pentru viitoare accesări ale platformei. Destinatarul este pe deplin responsabil de păstrarea în condiții de confidențialitate a numelui de utilizator, a parolei și a oricăror alte date necesare pentru accesarea și utilizarea platformei Juriștii pentru Drepturile Omului.</p>
+
+                        <p>Orice Client care dorește să transmită în mod anonim și securizat date, informații și documente către Destinatari va accesa Anonim și va urma instrucțiunile disponibile în acest sens pe platformă. La transmiterea oricăror date sau informații către Destinatari (o sesizare), platforma va genera un cod de securitate unic pe care Clientul trebuie să îl memoreze în vederea accesării ulterioare a oricăror comunicări cu Destinatarul în legătură cu respectiva sesizare. Clientul este responsabil pentru memorarea și păstrarea confidențialității asupra codului unic de securitate și înțelege că în caz de pierdere a acestuia nu va mai putea accesa conținutul sesizării respective și nici efectua comunicări ulterioare în legătură cu respectiva sesizare.</p>
+
+                        <p>Orice Utilizator este responsabil pentru păstrarea confidențialității asupra datelor și informațiilor primite sau transmise prin utilizarea platformei Anonim.</p>
+
+                        <p>În niciun caz Juriștii pentru Drepturile Omului nu va fi răspunzătoare pentru niciun fel de pierderi sau daune care ar rezulta din divulgarea de către Utilizator a datelor și informațiilor furnizate la accesarea și utilizarea platformei Anonim.</p>
+
+                        <p>Persoanelor, care se vor înregistra în calitate de destinatari, le vor fi publicate numele, prenumele funcția sau denumirea entității, care vor fi accesibile către oricare vizitator. Persoanele care vor solicita acces autorizat în calitate de destinatar, sunt informate asupra necesității transmiterii datelor veridice care-i vizează.</p>
+
+                        <h3>V. DECLARAȚIILE UTILIZATORILOR</h3>
+                            
+                        <p>Utilizatorul înțelege că Juriștii pentru Drepturile Omului nu supraveghează, înregistrează, accesează sau editează comunicările stabilite între Client și Destinatar prin intermediul platformei Anonim și nu răspunde în nicio situație pentru conținutul unor astfel de comunicări.</p>
+
+                        <h3>VI. LIMITE DE ACCES SI UTILIZARE A Anonim</h3>
+                            
+                        <p>Utilizatorul va folosi pentru accesarea și utilizarea Anonim propriile sale echipamente, sisteme și programe (Smartphone, Tableta, PC, conexiune Internet, browser, computer etc.). Deși Code for Romania a depus eforturi pentru asigurarea accesibilității și utilizării interfeței tehnice incluse în proiect prin internet („online”), aceasta nu răspunde pentru compatibilitatea echipamentelor, sistemelor sau programelor folosite de Utilizator cu interfața tehnică inclusă în platforma Anonim.</p>
+
+                        <p>Utilizatorul nu poate copia, publica, descărca, transmite, vinde, utiliza în aplicații sau proiecte proprii sau ale unor terți, nici intermedia sau înstrăina în niciun mod materialele (texte, imagini, secvențe video sau audio etc.) publicate în platforma Anonim, fără acordul prealabil scris al A.O. „Juriștii pentru Drepturile Omului”.</p>
+
+                        <p>La utilizarea Anonim, Utilizatorul este de acord să nu: (i) utilizeze Anonim pentru a trimite junk e-mail, spam, mesaje în lanț, scheme piramidale sau orice alte mesaje comerciale; (ii) transmită și distribuie informații sau documente care sunt ilegale, obscene, indecente, amenințătoare, abuzive, de hărțuire; (iii) transmită și distribuie materiale sau informații care ar putea incita la discriminare, ură sau violență față de orice persoană sau un grup, pe criterii de rasă, religie, handicap, naționalitate sau în alt mod ilegal; (iv) să încarce fișiere care conțin un virus, viermi, troieni sau alte date corupte care pot afecta funcționarea calculatorului sau proprietății altuia; (v) facă reclamă sau să ofere cumpărarea sau vinderea de bunuri sau servicii în orice scop comercial; (vi) acceseze/utilizeze platforma în orice mod care ar putea dezactiva, suprasolicita sau afecta site-ul/aplicația Anonim; (vii) transmită și distribuie materiale sau informații pe care nu are dreptul de a le transmite potrivit legii sau unei relații contractuale, cum ar fi de informații privilegiate sau informații confidențiale dezvăluite în cursul raporturilor de muncă sau al executării unui acord de confidențialitate; (ix) încerce să obțină acces neautorizat la alte conturi, sisteme de computere sau rețele conectate la Anonim prin hacking, spargere de parolă sau prin orice alte mijloace [altele].</p>
+                            
+                        <p>Orice încălcare a acestor limitări poate duce la blocarea accesului la Anonim a Utilizatorului și/sau la suspendarea contului de Utilizator.</p>
+                            
+                        <h3>VII. DATE CU CARACTER PERSONAL ȘI CONFIDENTIALITATE</h3>
+                            
+                        <p>La utilizarea platformei Anonim, clienții vor transmite într-un mod securizat și anonim documente și informații de interes public către Destinatari. Juriștii pentru Drepturile Omului nu are acces la conținutul acestor comunicări/documente și nici la datele folosite de Utilizatori în vederea accesării și utilizării platformei Anonim (ex. Codul de securitate al Clientului generat automat la transmiterea unei sesizări prin intermediul platformei, parola folosită de către Destinatar pentru accesarea contului său de utilizator).</p>
+                            
+                        <p>Astfel de date și comunicări pot fi însă colectate și stocate în mod criptat în cloud pe servere localizate în Uniunea Europeană și pot fi prelucrate doar în scop statistic și de analiză cu privire la performanțele și funcționalitatea aplicației Incognito.</p>
+
+                        <p>Datele furnizate de către Destinatar la înregistrarea unui cont vor fi prelucrate numai pentru autentificarea ulterioară în cont și doar pe durata existenței contului.</p>
+
+                        <p>În conformitate cu prevederile Legii privind protecția datelor cu caracter personal, Juriștii pentru Drepturile Omului are obligația de a administra în condiții de siguranță și numai pentru scopurile specificate mai sus datele cu caracter personal pe care Destinatarul le furnizează la înregistrarea pe platforma Anonim și în cadrul comunicărilor dintre Utilizatori.</p>
+
+                        <p>Juriștii pentru Drepturile Omului se obligă să păstreze confidențialitatea datelor colectate prin intermediul platformei Anonim, iar Destinatarul este de acord în mod explicit ca datele furnizate să fie prelucrate de către Juriștii pentru Drepturile Omului/Anonim în scopurile precizate mai sus.</p>
+
+                        <p>Destinatarii sunt în mod exclusiv răspunzători pentru protecția datelor cu caracter personal furnizate în cadrul comunicărilor, informărilor și documentelor primite de la Clienți și la respectarea prevederilor legale incidente, inclusiv protejarea sursei de informare.</p>
+
+                        <p>Utilizatorul beneficiază de drepturile prevăzute de Legea privind protecția datelor cu caracter personal.</p>
+
+                        <h3>VIII. LEGĂTURI CĂTRE SITE-URI ALE UNOR TERȚE PĂRȚI</h3>
+                            
+                        <p>Anonim poate include legături (link-uri) către site-uri ale unor terțe părți care sunt controlate și întreținute de către alte persoane. Orice legătură către/la alte site-uri nu este o aprobare a acestora și Utilizatorul înțelege și declară că Juriștii pentru Drepturile Omului nu va fi răspunzătoare pentru conținutul respectivelor site-uri.</p>
+                            
+                        <h3>IX. DECLINAREA ȘI LIMITAREA RĂSPUNDERII</h3>
+                            
+                        <p>Utilizarea Anonim se face în condițiile prezente și în versiunea disponibilă la un moment dat, fără nicio reprezentare sau aprobare și fără vreo garanție, fie ea expresă sau implicită.</p>
+                            
+                        <p>Juriștii pentru Drepturile Omului nu este răspunzătoare cu privire la modalitatea în care comunicările/informațiile/documentele furnizate de Clienți către Destinatari vor fi utilizate mai departe în activitatea acestora din urmă.</p>
+                            
+                        <p>Deși platforma Anonim folosește ultimele tehnologii de anonimizare a conexiunii Internet a Utilizatorilor în transmiterea de date sau comunicarea prin intermediul acesteia, Juriștii pentru Drepturile Omului nu declară și nu oferă nicio garanție că platforma Anonim va răspunde așteptărilor Utilizatorului, altfel decât s-a prevăzut explicit, și nici că funcționalitatea Anonim va fi neîntreruptă sau fără erori, sau că proiectul sau serverul care le face disponibile sunt lipsite de viruși informatici sau orice alte elemente care pot afecta sistemele cu care interacționează direct sau indirect.</p>
+                            
+                        <p>Juriștii pentru Drepturile Omului și/sau entitățile asociate cu Anonim își rezervă dreptul de a refuza Utilizatorului oricând accesul la aplicația Anonim și de a nu răspunde pentru utilizarea neautorizată/frauduloasă a Anonim.</p>
+                            
+                        <h3>X. DREPTURI DE AUTOR, PROPRIETATE INTELECTUALĂ</h3>
+                            
+                        <p>Code for Romania a dezvoltat platforma Anonim sub <a href="https://raw.githubusercontent.com/globaleaks/GlobaLeaks/master/LICENSE" target="_blank">platforma licențiată AGPL</a>.</p>
+
+                        <h3>XI. LEGEA APLICABILĂ ȘI SOLUȚIONAREA DISPUTELOR</h3>
+                            
+                        <p>Acest Contract va fi guvernat și interpretat în conformitate cu legile Republicii Moldova, iar orice dispute sau litigii dintre părți în legătura cu acesta vor fi soluționate de instanțele judecătorești competente.</p>
+
+                        <h3>XII. MODIFICAREA ȘI ACTUALIZAREA TERMENILOR SI CONDITIILOR</h3>
+
+                        <p>Juriștii pentru Drepturile Omului își rezervă dreptul de a modifica periodic acest Contract, precum și orice alți termeni și condiții speciale afișate în Anonim. Modificările vor intra în vigoare la momentul publicării respectivelor condiții actualizate. Accesarea sau utilizarea în continuare a platformei Anonim după respectiva publicare constituie acordul Utilizatorului de a respecta condițiile modificate.</p>
+
+                        <h3>Conditii pentru Destinatari:</h3>
+                        <ul>
+                            <li>Menționarea platformei ca instrument de anonimizare a sursei respectivei stiri (made by A.O. „Juriștii pentru Drepturile Omului/Anonim/Code for Romania)<p><em>Acest material a fost realizat cu ajutorul Anonim Moldova, platformă de anonimizare a surselor care doresc să transmită informații securizat către jurnaliștii, trusturile media, ONG-urile, instutițiile și autoritățile publice partenere.</em></p></li>
+                            <li>Banner pe propriul site cu link catre platformă</li>
+                            <li>Destinatarii se angajează să promoveze platforma Anonim pe toate canalele de comunicări de care dispun într-un regim de periodicitate stabilit conform anexei&hellip;</li>
+                            <li>Se stabilește persoana de contact - delegat responsabil pentru ambele părți</li>
+                        </ul>
+
+                        <h3>Ce oferim:</h3>
+                        <ul>
+                            <li>Acces gratuit la platformă;</li>
+                            <li>Asistență tehnică pentru accesare/utilizare;</li>
+                            <li>Afișarea siglei destinatarului pe site (de furnizat în format vectorial);</li>
+                            <li>Menționarea partenerilor în toate comunicările privind Anonim.</li>
+                        </ul>
+                        © 2019 Code for Romania.
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="contact">
+                        <p>Dacă vrei să trimiți informații confidențiale, folosește sistemul securizat Anonim:</p>
+                        <ul>
+                            <li>nu trimite informații decât prin sistemul securizat, apăsând butonul galben Trimite o informație;</li>
+                            <li><strong>nu folosi e-mailul pentru a ne trimite nouă informații sensibile.</strong></li>
+                            <li>Pentru chestiunile neconfidențiale despre Anonim, ne poți scrie la adresa de email <a href="/cdn-cgi/l/email-protection#04656a6b6a6d6944686c762a6960"><span class="__cf_email__" data-cfemail="c3a2adacadaaae83afabb1edaea7">[email&#160;protected]</span></a></li>
+                            <li>Dacă dorești să intri în lista de destinatari, te rugăm să ne trimiți un mesaj la adresa de mai sus.</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="trimite">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>  
+    </div>
+    <div class="container-fluid footer">
+    <footer>
+        <p style="color:black" class="copy mono">&copy; 2019 Code for Romania.<br> Organizație neguvernamentală independentă, neafiliată politic și apolitică.</p>
+        <a class="brand footer-logo" href="https://code4.ro/" target="_blank">
+            <img src="/s/anonim.png" alt="Code for Romania">
+        </a>
+    </footer>
+    </div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
