@@ -26,15 +26,16 @@ Modul corect de a face este să descărcați resursa local, să o încărcați p
 1. Instalați o nouă instanță de Globaleaks folosind [documentația oficială](https://docs.globaleaks.org/en/latest/setup/InstallationGuide.html); ceea ce constă în principal în emiterea următoarelor comenzi cu privilegii „root”:
 
 ```
-root # wget https://deb.globaleaks.org/install-globaleaks.sh
-root # chmod +x install-globaleaks.sh
-root # ./install-globaleaks.sh
+root# wget https://deb.globaleaks.org/install-globaleaks.sh
+root# chmod +x install-globaleaks.sh
+root# ./install-globaleaks.sh
 ```
 
 2. Configurați platforma și utilizatorul administrator accesând adresa `http://[ip_address]:8082/` urmați pașii furnizați (așa-numitul [wizard](https://docs.globaleaks.org/en/latest/setup/PlatformWizard.html));
 
 3. Conectați-vă la panoul de administrare (la adresa `http://[ip_address]:80/admin`) și încărcați următoarele [assets](assets/), după cum urmează:
-    - fișiere sub [assets/files](assets/files) la `Site settings > Files`
+    
+	- fișiere sub [assets/files](assets/files) la `Site settings > Files`
     - `custom.js`,` favicon.ico` la `Site settings > Theme customization`
     - `logo.png` la `Site settings > Main configuration > Logo`
 
